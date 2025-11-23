@@ -58,7 +58,7 @@ INSTALLED_APPS = [
     'drf_yasg',
 
     # local apps
-    'listings'
+    'alx_travel_app.listings'
 ]
 
 MIDDLEWARE = [
@@ -72,7 +72,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'listings.urls'
+ROOT_URLCONF = 'alx_travel_app.urls'
 
 TEMPLATES = [
     {

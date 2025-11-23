@@ -3,7 +3,7 @@ from django.contrib.auth.models import User
 from django.utils import timezone
 from datetime import timedelta
 from decimal import Decimal
-from listings.models import Listing, Booking, Review
+from alx_travel_app.listings.models import Listing, Booking, Review
 
 
 class Command(BaseCommand):
